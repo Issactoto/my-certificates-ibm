@@ -1,0 +1,112 @@
+@import '~carbon-components/scss/globals/scss/styles.scss';
+
+.certBase{
+    min-height: 60vh;
+    padding:2vh;
+    background-color: #262626;
+    
+
+}
+
+.headerBase{
+    min-height:18vh;
+    background-color: #001141;
+    display:flex;
+    justify-content: left;
+    color:white;
+    text-align: center;
+    vertical-align: center;
+    align-items: center;
+    padding-left: 2vh;
+    font-size: 4vh;
+}
+
+.line {
+    height: 2px;
+    background: white;
+    -webkit-animation: dude .75s 1 forwards;
+    animation: dude .75s 1 forwards;
+    width:100vh;
+  }
+  @-webkit-keyframes dude {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  @keyframes dude {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+
+.footerBase{
+    min-height:10vh;
+    background-color: #161616;
+    display:flex;
+    flex-direction: row;
+    color:white;
+    vertical-align: center;
+    padding: 6vh;
+    font-size: 3.5vh;
+}
+
+
+.FooterLeftContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    vertical-align: middle;
+    text-align: middle;
+    align-items: center;
+    width:50%
+}
+
+.FooterRightContainer{
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content: right;
+    right:0;
+    vertical-align: middle;
+    text-align: middle;
+    align-items: center;
+    width:50%;
+}
+
+.footerCompanieslogo{
+    width:18vh;
+    height:7.4vh;
+    margin: 2vh;
+}
+
+.footerContactlogo{
+    width:7vh;
+    height:7vh;
+    margin: 1vh;
+}
+.footerContactlogo:hover {
+    fill: #00539a;
+}
+.Iconlogo{
+    width:8vh;
+    padding-left:2vh;
+}
+
+.ibmlogo{
+    width:15vh;
+    max-height:15vh;
+    margin-left: 1vh;
+}
+
+.launchIcon{
+    max-width:4vh
+}
+launchIcon:hover{
+    fill:#00539a;
+}
