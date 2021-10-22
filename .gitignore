@@ -6,7 +6,7 @@
 .pnp.js
 
 # hide keys
-src/key.js
+/key.js
 
 # testing
 /coverage
