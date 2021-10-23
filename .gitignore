@@ -10,6 +10,16 @@
 src/key.js
 src/key.js
 
+
+#hide credentials
+./terraform/.terraform/
+./terraform/terraform.tfstate
+./terraform/terraform.tfstate.backup
+./terraform/terraform.tfvars
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfvars
+terraform/terraform.tfstate.backup
 # testing
 /coverage
 

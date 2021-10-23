@@ -132,7 +132,9 @@ function App(){
                     </Table>
                 )}
                 </DataTable>:
+                <div className="loadingBase">
                     <ReactLoading type={"spokes"} color={"white"} height={667} width={375} />
+                </div>
             }
             {isOpen && (
                 <Lightbox
